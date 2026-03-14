@@ -16,24 +16,33 @@ A full-stack web application featuring an infinite scroll activity feed. Users c
 
 ## Quick Start
 
+**🟢 Servers Currently Running:**
+- Backend: http://localhost:3000
+- Frontend: http://localhost:8080 (auto-opened browser)
+
+## Quick Start
+
 ### 1. Clone/Navigate to Project
 ```
 cd infinite-scroll-app
 ```
 
 ### 2. Backend Setup
-```bash
-cd backend
-npm install
-npm run dev
+```powershell
+# Windows/PowerShell (from project root)
+Set-Location backend; npm start
+
+# Or cmd
+cd backend && npm start
 ```
-- Runs on **http://localhost:3000**
+**Note:** npm install already done, auto-seeds DB.
+- Runs on **http://localhost:8080** (currently running)
 - Auto-connects to MongoDB: `mongodb://localhost:27017/infinite-scroll-app`
 - **Auto-seeds 100 fake activities** on first startup (title, description, image, date)
 
 **Manual Seed (if needed):**
 ```bash
-curl -X POST http://localhost:3000/api/seed
+curl -X POST http://localhost:8080/api/seed
 ```
 
 ### 3. Frontend Setup (New Terminal)
@@ -113,5 +122,5 @@ npm run serve   # dev server
 npm run build   # production build
 ```
 
-Enjoy infinite scrolling! 🚀
+Enjoy infinite scrolling! 
 
