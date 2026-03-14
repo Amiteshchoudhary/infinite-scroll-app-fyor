@@ -27,13 +27,13 @@ cd backend
 npm install
 npm run dev
 ```
-- Runs on **http://localhost:3000**
+- Runs on **http://localhost:8080**
 - Auto-connects to MongoDB: `mongodb://localhost:27017/infinite-scroll-app`
 - **Auto-seeds 100 fake activities** on first startup (title, description, image, date)
 
 **Manual Seed (if needed):**
 ```bash
-curl -X POST http://localhost:3000/api/seed
+curl -X POST http://localhost:8080/api/seed
 ```
 
 ### 3. Frontend Setup (New Terminal)
@@ -68,7 +68,7 @@ infinite-scroll-app/
 ```
 Vue Frontend (localhost:8080)
     ↓ Axios HTTP requests (CORS enabled)
-Node.js Backend API (localhost:3000)
+Node.js Backend API (localhost:8080)
     ↓ Express routes (/api/feed*)
 MongoDB (localhost:27017)
     ↓ Mongoose queries (Activity model)
@@ -113,5 +113,5 @@ npm run serve   # dev server
 npm run build   # production build
 ```
 
-Enjoy infinite scrolling! 🚀
+Enjoy infinite scrolling! 
 
