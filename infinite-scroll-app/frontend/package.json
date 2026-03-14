@@ -1,0 +1,17 @@
+{
+  "name": "infinite-scroll-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for infinite scroll activity app",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.0"
+  }
+}
+
