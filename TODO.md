@@ -1,12 +1,15 @@
-# GitHub Upload Plan for infinite-scroll-app
+# GitHub Repo Setup Progress for infinite-scroll-app
 
-## Steps to Complete:
-- [x] 1. Install GitHub CLI using winget
-- [ ]
-- [ ] 5. Create .gitignore file
-- [ ] 6. git add .
-- [ ] 7. git commit initial
-- [ ] 8. gh repo create infinite-scroll-app --public --source=. --remote=origin --push
-- [ ] 9. Verify repo online
+## Plan Steps:
+- [x] 1. Confirm Git installation (`git --version`)
+- [x] 2. cd into infinite-scroll-app/ && git init
+- [ ] 3. git add .
+- [ ] 4. git commit -m \"Initial commit: Infinite Scroll Activity Feed App\"
+- [ ] 5. git remote add origin https://github.com/REPO_NAME.git (user provides URL)
+- [ ] 6. git branch -M main && git push -u origin main
+- [ ] 7. Verify push success and update TODO.md complete
 
-Current progress will be updated after each step.
+## Notes:
+- Repo created by user; awaiting exact URL.
+- .gitignore already good (ignores node_modules etc.).
+
