@@ -113,5 +113,5 @@ npm run serve   # dev server
 npm run build   # production build
 ```
 
-Enjoy infinite scrolling! 
+
 
